@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -8,24 +8,22 @@ def index():
     return render_template("index.html")
 
 @app.route("/contatos")
-def contatos():
+def contato():
     return render_template("contatos.html")
 
 @app.route("/linguagens")
-def linguagens():
+def linguagem():
     return render_template("linguagens.html")
 
 @app.route("/projects")
-def projects():
+def project():
     return render_template("projects.html")
 
 @app.route("/projectPessoal")
-def projectPessoal():
+def projects():
     return render_template("projectPessoal.html")
 
 @app.route("/sobremim")
-def sobremim():
+def sobre():
     return render_template("sobremim.html")
 
-if __name__ == "__main__":
-    app.run(debug=True)
