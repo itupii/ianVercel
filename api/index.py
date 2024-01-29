@@ -17,7 +17,7 @@ def linguagens():
 
 @app.route("/projects")
 def projects():
-    return render_template("projects.html")
+    return render_template("templates/projects.html")
 
 @app.route("/projectPessoal")
 def projectPessoal():
