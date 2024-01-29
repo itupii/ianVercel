@@ -3,7 +3,7 @@
    
     {
       "source": "/(.*)",
-      "destination": "/api/index"
+      "destination": "/api/main"
     }
   ]
 }
