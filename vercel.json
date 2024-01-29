@@ -3,7 +3,7 @@
    
     {
       "source": "/(.*)",
-      "destination": "/index.py"
+      "destination": "/api/index"
     }
   ]
 }

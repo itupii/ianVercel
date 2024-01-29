@@ -27,3 +27,5 @@ def projectPessoal():
 def sobremim():
     return render_template("sobremim.html")
 
+if __name__ == "__main__":
+    app.run(debug=True)
